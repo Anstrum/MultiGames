@@ -17,7 +17,7 @@ namespace MultiGames.Project
 
         public void Load()
         {
-            FontManager.AddFont("Default");
+            FontManager.AddFont("Default", "Default");
 
 
             menu.Load();
