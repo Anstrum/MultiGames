@@ -5,8 +5,10 @@
   <Config />
   <SourceFiles>
     <File>C:/Users/cyril/Professionnel/Project/MultiGames/MultiGames/Content/Fonts/Default.spritefont</File>
+    <File>C:/Users/cyril/Professionnel/Project/MultiGames/MultiGames/Content/Fonts/MenuTitle.spritefont</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

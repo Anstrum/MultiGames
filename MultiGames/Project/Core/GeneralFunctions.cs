@@ -19,11 +19,12 @@ namespace MultiGames.Project
         public static GraphicsDevice graphicsDevice;
 
         public static GameTime gameTime;
-
+        public static Vector2 ScreenSize;
 
         public static void Update(GameTime _gameTime)
         {
             gameTime = _gameTime;
+            ScreenSize = new Vector2(graphicsDevice.Viewport.Width, graphicsDevice.Viewport.Height);
         }
 
 
@@ -33,6 +34,13 @@ namespace MultiGames.Project
             spriteBatch = _spriteBatch;
             graphics = _graphics;
             graphicsDevice = _graphicsDevice;
+        }
+            
+        public static void SetWindowSize(int _width, int _height)
+        {
+            graphics.PreferredBackBufferWidth = _width;
+            graphics.PreferredBackBufferHeight = _height;
+            graphics.ApplyChanges();
         }
     }
 }

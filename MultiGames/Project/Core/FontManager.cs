@@ -16,16 +16,16 @@ namespace MultiGames.Project
             FontList.Add(new Font(_fontName, font));
         }
 
-        public static Font GetFont(string _fontName)
+        public static SpriteFont GetFont(string _fontName)
         {
             foreach(Font font in FontList)
             {
                 if(font.name == _fontName)
                 {
-                    return font;
+                    return font.font;
                 }
             }
-            return FontList[0];
+            return FontList[0].font;
         }
     }
 }

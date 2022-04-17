@@ -73,3 +73,4 @@ C:\Users\cyril\Professionnel\Project\MultiGames\MultiGames\obj\Debug\netcoreapp3
 C:\Users\cyril\Professionnel\Project\MultiGames\MultiGames\obj\Debug\netcoreapp3.1\MultiGames.genruntimeconfig.cache
 C:\Users\cyril\Professionnel\Project\MultiGames\MultiGames\bin\Debug\netcoreapp3.1\Content\Fonts\Default.xnb
 C:\Users\cyril\Professionnel\Project\MultiGames\MultiGames\bin\Debug\netcoreapp3.1\Content\Fonts\File.xnb
+C:\Users\cyril\Professionnel\Project\MultiGames\MultiGames\bin\Debug\netcoreapp3.1\Content\Fonts\MenuTitle.xnb
